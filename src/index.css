@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-base;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Inconsolata", monospace;
 }
+#inputfield {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: whitesmoke;
+  padding: 10px;
+  caret-color: blueviolet;
+  border: transparent;
+  outline: none;
+  border-bottom: 2px solid #340027;
+}
+
+/*
+      'whitebex':'#E5E5E5',
+      'bexpurpledark' : '#340027',
+      'bexpurplemedium' : '#74005B',
+      'bexpurplelight' : '#8A006C',
+      'bexgray' : '#393939'*/
