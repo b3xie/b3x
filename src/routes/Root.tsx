@@ -4,8 +4,6 @@ import Header from "../components/Header";
 import ReactDOM from "react-dom/client";
 import Uptime from "../components/Uptime";
 
-const date1 = new Date("04/01/2004");
-
 function MainPage() {
   const title = "\\";
 

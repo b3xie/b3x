@@ -1,4 +1,4 @@
-import React from "react";
+import _React from "react";
 
 const names: { nome: string; message: string }[] = [
   {

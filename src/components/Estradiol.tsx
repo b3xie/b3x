@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import _React from "react";
 const iframe = (
   <iframe
     id="estra"
