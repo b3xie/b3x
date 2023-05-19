@@ -21,6 +21,9 @@ function Guestbook() {
       .post("https://guestbookapi.vercel.app/api/post", postData)
       .then((response) => {
         console.log(response);
+      })
+      .then(() => {
+        window.location.reload();
       });
   };
 
