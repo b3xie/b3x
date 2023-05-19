@@ -31,7 +31,7 @@ function PostList() {
       <section className="flex flex-col space-y-4">
         {posts.map((post) => {
           return (
-            <div className="flex flex-col bg-bexdark w-[64rem] p-3">
+            <div className="flex flex-col bg-bexdark w-auto min-w-[200px] p-3">
               <div className="">
                 <h2 className="text-bexpurplemedium">{post.name}:</h2>
               </div>
