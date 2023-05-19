@@ -33,6 +33,7 @@ function Guestbook() {
           <h2 className="text-bexgray">Just kidding it is still not working</h2>
           <form
             className="flex flex-row space-x-4 items-center"
+            id="form"
             onSubmit={sumbitHandler}
           >
             <label htmlFor="" className="text-whitebex">
@@ -59,7 +60,8 @@ function Guestbook() {
               className="inputfield"
             />
             <button
-              type="sumbit"
+              form="form"
+              type="submit"
               className="text-whitebex rounded bg-bexpurplemedium px-4"
             >
               sign
