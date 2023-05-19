@@ -11,12 +11,12 @@ function Header() {
             <Link to={"/"}>root</Link>
           </h2>
         </ul>
-        {/*
+
         <ul>
           <h2>
             <Link to={"/guestbook"}>/guestbook</Link>
           </h2>
-        </ul>*/}
+        </ul>
         <ul>
           <h2>
             <Link to={"/bex"}>/bex</Link>

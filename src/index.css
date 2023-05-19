@@ -19,7 +19,7 @@
 * {
   font-family: "Inconsolata", monospace;
 }
-#inputfield {
+.inputfield {
   background-color: transparent;
   box-sizing: border-box;
   color: whitesmoke;
