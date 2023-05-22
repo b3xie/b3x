@@ -15,7 +15,11 @@
     @apply text-base;
   }
 }
-
+.ascii {
+  white-space: pre;
+  font-family: "monospace";
+  line-height: 2ch;
+}
 * {
   font-family: "Inconsolata", monospace;
 }

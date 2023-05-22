@@ -4,20 +4,29 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="flex flex-col items-center justify-around pt-4 mb-16 h-40">
-      <h1 className="text-bexpurplelight text-5xl">[b3x] filesystem</h1>
-      <nav className="flex flex-row justify-around text-bexpurplemedium space-x-4">
-        <ul>
+      {/* prettier-ignore */}
+      <pre className="ascii text-bexpurplemedium">
+ __ _               __    __ _ _                     _                 <br/> 
+| _| |__   _____  _|_ |  / _(_) | ___  ___ _   _ ___| |_ ___ _ __ ___  <br/> 
+| || '_ \ / _ \ \/ /| | | |_| | |/ _ \/ __| | | / __| __/ _ \ '_ ` _ \ <br/> 
+| || |_| |  __/&gt;  &lt; | | |  _| | |  __/\__ \ |_| \__ \ ||  __/ | | | | |<br/> 
+| ||_.__/ \___/_/\_\| | |_| |_|_|\___||___/\__, |___/\__\___|_| |_| |_|<br/> 
+|__|               |__|                    |___/                       <br/> 
+
+      </pre>
+      <nav className="flex  flex-row justify-around text-bexpurplemedium space-x-4 mt-4">
+        <ul className="tui-button bg-bexpurpledark text-bexpurplelight">
           <h2>
             <Link to={"/"}>root</Link>
           </h2>
         </ul>
 
-        <ul>
+        <ul className="tui-button bg-bexpurpledark text-bexpurplelight">
           <h2>
             <Link to={"/guestbook"}>/guestbook</Link>
           </h2>
         </ul>
-        <ul>
+        <ul className="tui-button bg-bexpurpledark text-bexpurplelight">
           <h2>
             <Link to={"/bex"}>/bex</Link>
           </h2>
@@ -29,7 +38,7 @@ function Header() {
           </h2>
         </ul>
       */}
-        <ul>
+        <ul className="tui-button bg-bexpurpledark text-bexpurplelight">
           <h2>
             <Link to={"/project"}>/projects</Link>
           </h2>

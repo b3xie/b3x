@@ -33,7 +33,7 @@ function Guestbook() {
       <main>
         <section className="flex flex-col items-center space-y-4 w-full">
           <h1 className="text-whitebex">sign the guestbook:</h1>
-          <h2 className="text-bexgray">Just kidding it is still not working</h2>
+          <h2 className="text-bexgray"></h2>
           <form
             className="flex flex-row space-x-4 items-center"
             id="form"
