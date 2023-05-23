@@ -43,7 +43,7 @@ function AboutMe() {
             </h3>
             <h3>
               was at @ <br />
-              ETESP - system sevelopment - secondary technical degree -
+              ETESP - system development - secondary technical degree -
               2019~2021
             </h3>
           </div>
