@@ -18,6 +18,7 @@
 .ascii {
   white-space: pre;
   font-family: "monospace";
+  word-spacing: 0px;
   line-height: 2ch;
 }
 * {
