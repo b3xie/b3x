@@ -1,24 +1,27 @@
-import _React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
-const names: { nome: string; message: string }[] = [
+/*const names: { nome: string; message: string }[] = [
   {
     nome: "Sarah",
     message: "bucetossauros rex",
   },
   {
     nome: "Caterpi",
-    message: "pipipipippipi",
+    message: "pipipipippipi", 
   },
   {
     nome: "Max",
     message: "Bex :3",
   },
-];
-
+];*/
+type Note = {
+  name: string;
+  post: string;
+};
 function PostList() {
-  const [posts, setPosts] = useState([] as any[]);
-  const fetchPosts = () => {
-    fetch("https://guestbookapi.vercel.app/api/posts")
+  const [posts, setPosts] = useState<Note[]>([]);
+  const fetchPosts = async () => {
+    await fetch("https://guestbookapi.vercel.app/api/posts")
       .then((response) => response.json())
       .then((data) => setPosts(data));
   };
