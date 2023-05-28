@@ -6,7 +6,7 @@ function Header() {
     <header className="flex flex-col items-center justify-around pt-4 mb-16 h-40">
       {/* prettier-ignore */}
       <pre className="ascii text-bexpurplemedium">
- __ _               __    __ _ _                     _                 <br/> 
+&nbsp;__ _               __    __ _ _                     _                 <br/> 
 | _| |__   _____  _|_ |  / _(_) | ___  ___ _   _ ___| |_ ___ _ __ ___  <br/> 
 | || '_ \ / _ \ \/ /| | | |_| | |/ _ \/ __| | | / __| __/ _ \ '_ ` _ \ <br/> 
 | || |_| |  __/&gt;  &lt; | | |  _| | |  __/\__ \ |_| \__ \ ||  __/ | | | | |<br/> 

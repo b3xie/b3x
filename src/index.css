@@ -15,14 +15,15 @@
     @apply text-base;
   }
 }
-.ascii {
-  white-space: pre;
-  font-family: "monospace";
-  word-spacing: 0px;
-  line-height: 2ch;
-}
 * {
   font-family: "Inconsolata", monospace;
+}
+.ascii {
+  white-space: pre;
+  font-family: "Courier New", "Inconsolata";
+  font-weight: bold;
+  word-spacing: 0px;
+  line-height: 2ch;
 }
 .inputfield {
   background-color: transparent;
