@@ -28,6 +28,9 @@ function AboutMe() {
               <h2 className="text-bexgray">
                 transfem | g/acc | coding | DIY HRT
               </h2>
+              <div className="text-bexgray w-full items-start">
+                <h3>currently working @ EmberLabs</h3>
+              </div>
             </div>
             <div>
               <img src="/git.svg" alt="" className="fill-gray-50" />
@@ -36,17 +39,6 @@ function AboutMe() {
           <h1 className="text-bexpurplemedium">
             -=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
           </h1>
-          <div className="text-bexgray w-full items-start">
-            <h3>
-              currently @ <br />
-              UFABC - sci&tech - undergraduate student 2022~
-            </h3>
-            <h3>
-              was at @ <br />
-              ETESP - system development - secondary technical degree -
-              2019~2021
-            </h3>
-          </div>
         </section>
       </main>
     </>

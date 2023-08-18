@@ -11,7 +11,7 @@ export default {
       'bexpurpledark' : '#340027',
       'bexpurplemedium' : '#74005B',
       'bexpurplelight' : '#8A006C',
-      'bexgray' : '#454545',
+      'bexgray' : '#787878',
       'bexdark' : '#030302'
 
     },
