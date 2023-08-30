@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import Estradiol from "../components/Estradiol";
 
 function Hrt() {
   return (
@@ -17,10 +16,6 @@ function Hrt() {
                 github project
               </a>
             </h2>
-          </p>
-
-          <p>
-            <h1></h1>
           </p>
         </section>
       </main>

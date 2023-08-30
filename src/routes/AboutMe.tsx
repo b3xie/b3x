@@ -7,9 +7,6 @@ function AboutMe() {
       <Header></Header>
       <main className="flex flex-col items-center w-full">
         <section className="w-[43rem] flex flex-col items-center">
-          <h1 className="text-bexpurplemedium">
-            -=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-          </h1>
           <div className="flex flex-row items-center w-full justify-stretch">
             <div>
               <img
@@ -36,9 +33,6 @@ function AboutMe() {
               <img src="/git.svg" alt="" className="fill-gray-50" />
             </div>
           </div>
-          <h1 className="text-bexpurplemedium">
-            -=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-          </h1>
         </section>
       </main>
     </>
